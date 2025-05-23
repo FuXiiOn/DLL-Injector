@@ -26,7 +26,7 @@ DWORD GetProcId(const wchar_t* dllName) {
 
 int main() {
 	DWORD procId = 0;
-	const char* dllPath = "C:\\dev\\testsDLL\\x64\\Release\\testsDLL.dll";
+	const char* dllPath = "yourPath";
 	const wchar_t* procName = L"notepad.exe";
 	
 	std::cout << "[+] Looking for process...\n";
